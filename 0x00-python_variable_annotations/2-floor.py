@@ -3,6 +3,12 @@
 import math
 
 
-def floor(n: float) -> float:
-    """ return the floor of float"""
+def floor(n: float) -> int:
+    """ return the floor of float
+    Args:
+        n (float): [float to be computed]
+
+    Returns:
+        int: [result]
+    """
     return math.floor(n)
